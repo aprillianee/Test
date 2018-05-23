@@ -109,7 +109,7 @@ img.logo {
     line-height: 1.0;
 }
 #cc {
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .form-inline {
     text-align: center;
@@ -160,6 +160,12 @@ form .form-control {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     margin-top: 30px;
+}
+#info {
+    margin: 10px 0 20px 0;
+}
+#info .fa-phone{
+    margin: 10px 0 0 0;
 }
 
 
