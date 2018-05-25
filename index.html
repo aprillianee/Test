@@ -12,135 +12,237 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Old+Standard+TT|Quicksand:300|Roboto:300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/58f460ac7f00bc1ee0942b36f/22d0ce004c04b22ce0e4acb4e.js");</script>
-
+    
 </head>
 
 <body>
-        <div class="image-container">
-            <div class="filter">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div id="name">
-                            <h1>Under Construction</h1><br>
-                            <p>We're working hard on our new site.</p> 
-                            <p>Subscribe to receive the latest updates about our site and services!</p><br>
-                            <form class="form-inline">
-                                <div class="input-group">
-                                    <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-                                    <div class="input-group-btn">
-                                    <button type="button" class="btn btn-info">Subscribe</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <br><br><p>
-                            <a href="#"><i class="fa fa-facebook-square" style="font-size:48px;color:white"></i></a>
-                            <a href="#"><i class="fa fa-twitter-square" style="font-size:48px;color:white"></i></a>
-                            <a href="#"><i class="fa fa-linkedin-square" style="font-size:48px;color:white"></i></a></p>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-   
-        
-        <div class="content-container">
+    <div class="image-container">
+        <div class="filter">
             <div class="row">
                 <div class="col-sm-12">
-                <p><img class="logo" src="public/images/Husky.png" alt="Husky Air Conditioning, inc"></p>
-                <h1>Husky Air Conditioning, inc.</h1>
-                <h5>Serving the Greater Los Angeles Area, CA</h5>
-                <hr />
-
-                <div class="services">
-                    <h3>Our Services</h3>
-                        <div class="row">
-                            <div class="col-sm-1"></div>
-                            <div class="col-sm-5">
-                                <li>Preventative Maintenance</li>
-                                <li>Repair and Replacement</li>
-                                <li>Air Filtration and Purification</li>
-                                <li>Humidifiers and Dehumidifiers</li>
-                            </div>
-                            <div class="col-sm-5">
-                                <li>Emergency Response Service</li>
-                                <li>Expert Installation</li>
-                                <li>Insulation Services</li>
-                                <li>UV Lights and Air Scrubbers</li>
-                            </div>
-                            <div class="col-sm-1"></div>
-                        </div>
-                </div>
-
-                <div class="contact"><br>
-                    <h3>Request Quote or Services</h3>
-                    <p>Send us a message and we'll get back to you the same day!</p>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <form method="POST" action="https://formspree.io/steve.valdez@huskyairconditioning.com">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form">
-                                        <input type="text" id="contact-name" placeholder="Name" class="form-control">
+                    <div id="name">
+                        <h1>Under Construction</h1><br>
+                        <p>We're working hard on our new site!</p>
+                        <p>To contact us in the meantime regarding our services please send us a message below.</p> 
+                        <p></p>
+                        <div class="contact">
+                            <!-- <h3>Request Quote or Services</h3> -->
+                            <div class="row">
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-10">
+                                    <form style="max-width: 600px" method="POST" action="https://formspree.io/steve.valdez@huskyairconditioning.com">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="md-form">
+                                                    <input type="text" id="contact-name" placeholder="Name" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="md-form">
+                                                    <input type="text" id="contact-email" placeholder="Email" class="form-control">                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="md-form">
+                                                        <input type="text" id="contact-Subject" placeholder="Subject" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="md-form">
+                                                        <textarea type="text" id="contact-message" placeholder="What can we help you with?" class="form-control md-textarea" rows="3"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>                    
+                                        </form>
+                                        <br>
+                                        <div class="text-center text-md-left">
+                                            <input type="hidden" name="_next" value="index.html" />
+                                            <a class="btn btn-info btn-md">Send</a>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form">
-                                        <input type="text" id="contact-email" placeholder="Email" class="form-control">                                    </div>
-                                    </div>
+                                    <div class="col-sm-1"></div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form">
-                                        <input type="text" id="contact-Subject" placeholder="Subject" class="form-control">
+                                <!-- <div class="row" id="info">
+                                    <div class="col-sm-12 text-center">
+                                        <h3>Hours of Operation</h3>
+                                        <p>Weekdays: 7AM - 5PM</p>
+                                    </div>
+                                    <div class="col-sm-12 text-center">
+                                        <ul class="list-unstyled mb-0">
+                                            <p>
+                                                <i class="fa fa-phone fa-2x mt-4 blue-text"></i>
+                                                <a href"#"><p>(626) 510-3906</p></a>
+                                            </p>
+                                        </ul>
+                                    </div> -->
+                                    
+                                    <!-- <div class="col-sm-12 text-center">
+                                        <ul class="list-unstyled mb-0">
+                                            <p>
+                                                <i class="fa fa-envelope fa-2x mt-4 blue-text"></i>
+                                                <p class="mb-0">steven.valdez@huskyairconditioning.com</p>
+                                            </p>
+                                        </ul>
+                                    </div> 
+                                    </div>                  
+                                </div> -->
+                                <!-- <form class="form-inline">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                                        <div class="input-group-btn">
+                                            <button type="button" class="btn btn-info">Subscribe</button>
                                         </div>
                                     </div>
+                                </form> -->
+                                <!-- <br><p>
+                                    <a href="#"><i class="fa fa-facebook-square" style="font-size:48px;color:white"></i></a>
+                                    <a href="#"><i class="fa fa-twitter-square" style="font-size:48px;color:white"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin-square" style="font-size:48px;color:white"></i></a></p> -->
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form">
-                                        <textarea type="text" id="contact-message" placeholder="What can we help you with?" class="form-control md-textarea" rows="3"></textarea>
-                                        </div>
-                                    </div>
-                                </div>                    
-                            </form>
-                            <br>
-                            <div class="text-center text-md-left">
-                                <input type="hidden" name="_next" value="index.html" />
-                                <a class="btn btn-info btn-md">Send</a>
-                            </div>
+                            </div> 
                         </div>
                     </div>
-                    <!-- <div class="row" id="info">
-                            <div class="col-sm-12 text-center">
-                                    <h3>Hours of Operation</h3>
-                                    <p>Weekdays: 7AM - 5PM</p>
-                            </div>
-                            <div class="col-sm-12 text-center">
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                        <i class="fa fa-phone fa-2x mt-4 blue-text"></i>
-                                        <a href"#"><p>(626) 510-3906</p></a>
-                                        </li>
-                                    </ul>
-                                </div> -->
-
-                            <!-- <div class="col-sm-12 text-center">
-                                <ul class="list-unstyled mb-0">
-                                    <li>
-                                    <i class="fa fa-envelope fa-2x mt-4 blue-text"></i>
-                                    <p class="mb-0">steven.valdez@huskyairconditioning.com</p>
-                                    </li>
-                                </ul>
-                            </div> -->
-                    <!-- </div>                   -->
-                </div> 
-                <p id="cc">&copy; Copyright 2018 Husky Air Conditioning</p>     
                 </div>
             </div>
-        </div>
-
-</body>
-
-</html>
+                
+                
+                <div class="content-container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p><img class="logo" src="public/images/Husky.png" alt="Husky Air Conditioning, inc"></p>
+                            <h1>Husky Air Conditioning, inc.</h1>
+                            <h5>Serving the Greater Los Angeles Area, CA</h5>
+                            <hr />
+                            
+                            <div class="services">
+                                <h3>Our Services</h3>
+                                <div class="row">
+                                    <div class="col-sm-1"></div>
+                                    <div class="col-sm-5">
+                                        <li>Preventative Maintenance</li>
+                                        <li>Repair and Replacement</li>
+                                        <li>Air Filtration and Purification</li>
+                                        <li>Humidifiers and Dehumidifiers</li>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <li>Emergency Response Service</li>
+                                        <li>Expert Installation</li>
+                                        <li>Insulation Services</li>
+                                        <li>UV Lights and Air Scrubbers</li>
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div><br>
+                                <!-- </div> -->
+                                
+                                <!-- <div class="contact"><br> -->
+                                    <h3>Locations We Serve</h3>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <p>Riverside</p>
+                                            <p>San Bernadino</p>
+                                            <p>Rancho Cucamonga</p>
+                                            <p>Ontario</p>
+                                            <p>Fontana</p>
+                                            <p>Moreno Valley</p>
+                                            <p>Temecula</p>
+                                            <p>Diamond Bar</p>
+                                            <p>East Vale</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <p>West Covina</p>
+                                            <p>Redlands</p>
+                                            <p>Walnut</p>
+                                            <p>Loma Linda</p>
+                                            <p>Corona</p>
+                                            <p>Lake Elsinore</p>
+                                            <p>Chino</p>
+                                            <p>Victorville</p>
+                                            <p>Perris</p>
+                                        </div>
+                                        <div class="col-sm-4"></div>
+                                        <p>Upland</p>
+                                        <p>Murrieta</p>
+                                        <p>Palm Springs</p>
+                                        <p>Colton</p>
+                                        <p>La Puente</p>
+                                        <p>Chino Hills</p>
+                                        <p>Rialto</p>
+                                        <p>Alta Loma</p>
+                                        <p>Montclair</p>
+                                    </div>
+                                    <!-- <div class="col-sm-1"></div> -->
+                                </div>
+                                <!-- <div class="row">
+                                    <div class="col-md-12">
+                                        <form method="POST" action="https://formspree.io/steve.valdez@huskyairconditioning.com">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="md-form">
+                                                        <input type="text" id="contact-name" placeholder="Name" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="md-form">
+                                                        <input type="text" id="contact-email" placeholder="Email" class="form-control">                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="md-form">
+                                                            <input type="text" id="contact-Subject" placeholder="Subject" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="md-form">
+                                                            <textarea type="text" id="contact-message" placeholder="What can we help you with?" class="form-control md-textarea" rows="3"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>                    
+                                            </form>
+                                            <br>
+                                            <div class="text-center text-md-left">
+                                                <input type="hidden" name="_next" value="index.html" />
+                                                <a class="btn btn-info btn-md">Send</a>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <!-- <div class="row" id="info">
+                                        <div class="col-sm-12 text-center">
+                                            <h3>Hours of Operation</h3>
+                                            <p>Weekdays: 7AM - 5PM</p>
+                                        </div>
+                                        <div class="col-sm-12 text-center">
+                                            <ul class="list-unstyled mb-0">
+                                                <p>
+                                                    <i class="fa fa-phone fa-2x mt-4 blue-text"></i>
+                                                    <a href"#"><p>(626) 510-3906</p></a>
+                                                </p>
+                                            </ul>
+                                        </div> -->
+                                        
+                                        <!-- <div class="col-sm-12 text-center">
+                                            <ul class="list-unstyled mb-0">
+                                                <p>
+                                                    <i class="fa fa-envelope fa-2x mt-4 blue-text"></i>
+                                                    <p class="mb-0">steven.valdez@huskyairconditioning.com</p>
+                                                </p>
+                                            </ul>
+                                        </div> -->
+                                        <!-- </div>                   -->
+                                        <br><br>
+                                    </div> 
+                                    <p id="cc">&copy; Copyright 2018 Husky Air Conditioning</p>     
+                                </div><br>
+                            </div>
+                        </div>
+                        
+                    </body>
+                    
+                </html>
